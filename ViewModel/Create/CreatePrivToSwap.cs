@@ -1,0 +1,40 @@
+﻿using MoqaydaGP.Entities;
+using MoqaydaGP.Repository.Abstract;
+using MoqaydaGP.ViewModel.Get;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Threading.Tasks;
+using System.Threading;
+using Microsoft.Extensions.DependencyInjection;
+
+namespace MoqaydaGP.ViewModel.Create
+{
+    public class CreatePrivToSwap : PrivToSwapViewModel
+    {
+        public override async Task<IEnumerable<ValidationResult>> ValidateAsync(ValidationContext validationContext,
+       CancellationToken cancellation)
+        {
+            var errors = new List<ValidationResult>();
+            var prodToSwapService = validationContext.GetService<IPrivToSwapService>();
+            var userService = validationContext.GetService<IUserService>();
+            var productOwnerService = validationContext.GetService<IPrivateItemOwnerService>();
+            var user = await userService.GetUserAndProductsAsync(UserId);
+            var productOwner = await productOwnerService.GetPrivateItemOwnerAsync(PrivateItemOwnerId);
+
+            if (await prodToSwapService.IsPrivToSwapExistAsync(UserId, ProductId, PrivateItemOwnerId))
+            {
+                errors.Add(new ValidationResult($"Product id {ProductId} exist for owner {UserId}", new[] { nameof(ProductId) }));
+            }
+            if (user == null)
+            {
+                errors.Add(new ValidationResult($"user id {UserId} doesn't exist", new[] { nameof(UserId) }));
+            }
+            if (productOwner == null)
+            {
+                errors.Add(new ValidationResult($"PrivateItemOwner id {PrivateItemOwnerId} doesn't exist", new[] { nameof(PrivateItemOwnerId) }));
+            }
+            return errors;
+
+        }
+    }
+}

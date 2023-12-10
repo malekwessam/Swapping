@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAABfGIYbcfckKtY69mci6KSwAAAAACAAAAAAAQZgAAAAEAACAAAADvkkyvM/WbndxJxFpzN4rVql7aoSFDEh/CwikxHrTBHgAAAAAOgAAAAAIAACAAAAC4sp7qXMFSJPOF3/18zPon2gLahwz6OB2qkps9AZa2mCAAAADmSAmkfg7YFPIr164wXb4YDycnflDu5vUWKPHrDeMatUAAAADv9EQKnx2uQKQtf7c8MGYslUgqgYp+7gYQm3fcileiD3DH5wzIR8FUfVITgMOhj3dPYuMfewAECBRC6L4fblQV</EncryptedPassword>
+    <_PublishTargetUrl>ftp://moqayda.somee.com/www.moqayda.somee.com</_PublishTargetUrl>
+    <History>True|2023-06-06T19:32:26.5161275Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>05/12/2023 16:46:44</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>06/06/2023 22:24:49</publishTime>
+    </File>
+    <File Include="Microsoft.Bcl.AsyncInterfaces.dll">
+      <publishTime>04/15/2020 00:39:12</publishTime>
+    </File>
+    <File Include="Microsoft.Bcl.HashCode.dll">
+      <publishTime>11/16/2020 23:15:52</publishTime>
+    </File>
+    <File Include="Microsoft.Data.SqlClient.dll">
+      <publishTime>05/16/2020 01:07:26</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Abstractions.dll">
+      <publishTime>07/14/2022 04:02:58</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.dll">
+      <publishTime>07/14/2022 04:03:10</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Relational.dll">
+      <publishTime>07/14/2022 04:03:20</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.SqlServer.dll">
+      <publishTime>07/14/2022 04:03:24</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Caching.Abstractions.dll">
+      <publishTime>07/14/2022 02:07:46</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Caching.Memory.dll">
+      <publishTime>07/14/2022 02:08:12</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Configuration.Abstractions.dll">
+      <publishTime>07/14/2022 02:07:52</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Configuration.Binder.dll">
+      <publishTime>07/14/2022 02:08:16</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Configuration.dll">
+      <publishTime>07/14/2022 02:07:58</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <publishTime>07/14/2022 02:08:04</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DependencyInjection.dll">
+      <publishTime>07/14/2022 02:07:58</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Logging.Abstractions.dll">
+      <publishTime>07/14/2022 02:10:02</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Logging.dll">
+      <publishTime>07/14/2022 02:10:00</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Options.dll">
+      <publishTime>07/14/2022 02:08:00</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Primitives.dll">
+      <publishTime>07/14/2022 02:08:28</publishTime>
+    </File>
+    <File Include="Microsoft.Identity.Client.dll">
+      <publishTime>04/30/2019 00:04:14</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.JsonWebTokens.dll">
+      <publishTime>06/24/2019 21:50:38</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Logging.dll">
+      <publishTime>06/24/2019 21:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.dll">
+      <publishTime>06/24/2019 21:54:24</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.OpenIdConnect.dll">
+      <publishTime>06/24/2019 21:59:32</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Tokens.dll">
+      <publishTime>06/24/2019 21:56:06</publishTime>
+    </File>
+    <File Include="Microsoft.OpenApi.dll">
+      <publishTime>06/23/2022 21:10:08</publishTime>
+    </File>
+    <File Include="MoqaydaGP.deps.json">
+      <publishTime>06/06/2023 22:27:48</publishTime>
+    </File>
+    <File Include="MoqaydaGP.dll">
+      <publishTime>06/06/2023 22:27:47</publishTime>
+    </File>
+    <File Include="MoqaydaGP.exe">
+      <publishTime>06/06/2023 22:27:47</publishTime>
+    </File>
+    <File Include="MoqaydaGP.pdb">
+      <publishTime>06/06/2023 22:27:47</publishTime>
+    </File>
+    <File Include="MoqaydaGP.runtimeconfig.json">
+      <publishTime>05/13/2023 15:08:54</publishTime>
+    </File>
+    <File Include="Newtonsoft.Json.dll">
+      <publishTime>03/20/2017 22:03:18</publishTime>
+    </File>
+    <File Include="sni.dll">
+      <publishTime>07/12/2017 13:24:22</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.Annotations.dll">
+      <publishTime>07/19/2022 17:21:46</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.Swagger.dll">
+      <publishTime>07/19/2022 17:21:20</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerGen.dll">
+      <publishTime>07/19/2022 17:21:38</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerUI.dll">
+      <publishTime>07/19/2022 17:21:46</publishTime>
+    </File>
+    <File Include="System.Collections.Immutable.dll">
+      <publishTime>04/15/2020 00:38:40</publishTime>
+    </File>
+    <File Include="System.Configuration.ConfigurationManager.dll">
+      <publishTime>05/15/2018 15:29:38</publishTime>
+    </File>
+    <File Include="System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>04/15/2020 00:48:06</publishTime>
+    </File>
+    <File Include="System.IdentityModel.Tokens.Jwt.dll">
+      <publishTime>06/24/2019 21:49:50</publishTime>
+    </File>
+    <File Include="System.Runtime.Caching.dll">
+      <publishTime>05/15/2018 15:29:40</publishTime>
+    </File>
+    <File Include="System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>05/15/2018 15:29:44</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>06/06/2023 22:27:48</publishTime>
+    </File>
+    <File Include="wwwroot/images/1201444092Screenshot %281%29.png">
+      <publishTime>05/16/2023 18:35:56</publishTime>
+    </File>
+    <File Include="wwwroot/PImages/1443130833Screenshot %281%29.png">
+      <publishTime>05/16/2023 11:09:35</publishTime>
+    </File>
+    <File Include="wwwroot/PrImages/1422194991Screenshot %281%29.png">
+      <publishTime>05/16/2023 18:45:36</publishTime>
+    </File>
+    <File Include="wwwroot/UImages/1543166330Screenshot %281%29.png">
+      <publishTime>05/16/2023 18:37:26</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
